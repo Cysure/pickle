@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# env files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# scraped lead data (contains contact details) — scripts stay tracked
+data/scrape/*
+!data/scrape/*.py
+.next-leads
