@@ -13,3 +13,7 @@ next-env.d.ts
 data/scrape/*
 !data/scrape/*.py
 .next-leads
+
+.vercel
+.env*
+!.env.example
